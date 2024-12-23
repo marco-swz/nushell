@@ -1,0 +1,77 @@
+ls
+ls -la
+clear
+ls
+cd ..
+ls
+cd nu
+ls
+cd nushell
+clear
+ls
+nvim config.nu
+exit
+celar
+clear
+ls
+clear
+ls
+cd ..
+ls
+cd nixos
+ls
+nvim
+git pull
+nvim global.nix
+ls
+sudo nixos-rebuild switch --flake .#desktop2
+nvim 
+nvim global.nix
+sudo nixos-rebuild switch --flake .#desktop2
+clear
+gsettings
+cd .connfig
+cd config
+ls
+cd .config
+ls
+clear
+ls
+cd nixos
+nvim global.nix
+nix
+clear
+cd .config/nixos
+ls
+nvim desktop2/configuration.nix
+sudo nixos-rebuild switch --flake .#desktop2
+nvim desktop2/configuration.nix
+sudo nixos-rebuild switch --flake .#desktop2
+nvim desktop2/configuration.nix
+sudo nixos-rebuild switch --flake .#desktop2
+reboot
+clear
+cd .config/nixos
+ls
+nvim desktop2/configuration.nix
+sudo nixos-rebuild switch --flake .#desktop2
+reboot
+cd .config/nushell/
+exit
+clear
+exit
+ls
+exit
+ls
+nvim
+ls
+keybindings --list
+keybindings list
+exit
+nvim
+ls
+git status
+git init
+git branch -m main
+git remote add origin https://github.com/marco-swz/nushell.git
+git push -u origin main
