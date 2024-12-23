@@ -358,6 +358,18 @@ $env.config = {
 
     keybindings: [
         {
+            name: completion_select
+            modifier: control
+            keycode: char_l
+            mode: [emacs vi_normal vi_insert]
+            event: {
+                until: [
+                    { send: historyhintcomplete }
+                    { send: enter name: completion_menu }
+                ]
+            }
+        }
+        {
             name: completion_menu
             modifier: control
             keycode: char_j
