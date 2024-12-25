@@ -176,8 +176,8 @@ $env.config = {
     datetime_format: {
         # normal: '%a, %d %b %Y %H:%M:%S %z'    # shows up in displays of variables or other datetime's outside of tables
         # table: '%m/%d/%y %I:%M:%S%p'          # generally shows up in tabular outputs such as ls. commenting this out will change it to the default human readable datetime format
-        table: '%y/%m/%d %H:%M:%S'          # generally shows up in tabular outputs such as ls. commenting this out will change it to the default human readable datetime format
-        normal: '%y/%m/%d %H:%M:%S'          # generally shows up in tabular outputs such as ls. commenting this out will change it to the default human readable datetime format
+        table: '%y-%m-%d %H:%M:%S'          # generally shows up in tabular outputs such as ls. commenting this out will change it to the default human readable datetime format
+        normal: '%y-%m-%d %H:%M:%S'          # generally shows up in tabular outputs such as ls. commenting this out will change it to the default human readable datetime format
     }
 
     explore: {
